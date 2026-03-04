@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background: #f3f3f3;
+}
+/* Header */
+.contact-section{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.contact-container h1{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.subtitle{
+    margin: 15px 0 40px;
+    font-size: 18px;
+    color: #444;
+}
+/* Form */
+.contact-form{
+    width: 700px;
+    margin: auto;
+}
+
+.input-group{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.input-box{
+    flex: 1;
+    text-align: left;
+}
+
+.input-box label{
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.input-box input{
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 25px;
+    border: none;
+    background: #e5e5e5;
+    outline: none;
+}
+
+.submit-btn{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 30px;
+    background: #c0a01f;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit-btn:hover{
+    background: #c0a01f;
+}
+/* Bottom Info Section */
+.info-section{
+    margin-top: 70px;
+    background: #c0a01f;
+    padding: 60px 40px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+/* Teal Bottom Strip */
+.info-section::after{
+    content: "";
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background:#c0a01f;
+    z-index: -1;
+}
+
+.info-box{
+    text-align: center;
+    width: 300px;
+}
+
+.icon-circle{
+    width: 90px;
+    height: 90px;
+    background:#c0a01f;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 30px;
+}
+
+.info-box h3{
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.info-box  p {
+    color: #444;
+    line-height: 1.6;
+}
