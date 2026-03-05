@@ -2,100 +2,177 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Product Collections - Beauty by Helynne</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Helynne Beauty | Products</title>
 </head>
 <body>
-    <header class="hero hero-products">
-        <div class="navbar"> 
-            <h2 class="logo">Beauty by Helynne</h2>
-            <div class="menu">
-                 <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="services.html">SERVICE</a></li>
-                    <li><a href="products.html">PRODUCTS</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                 </ul>
-            </div>
-            <div class="search">
-                <input class="srch" type="search" placeholder="Search products...">
-                <button class="btn-search">Search</button>
-            </div>
+    <nav class="navbar">
+    <div class="nav-container">
+        <div class="logo">
+            <a href="index.html">HELYNNE <span>BEAUTY</span></a>
         </div>
 
-        <div class="hero-title">
-            <h1>Our Collections</h1>
-        </div>
-    </header>
-
-    <div class="background">
-        <div class="window">
-            <div class="window-header">
-                <div class="dots">
-                    <span class="dot red"></span>
-                    <span class="dot yellow"></span>
-                    <span class="dot green"></span>
-                </div>
-            </div>
-
-            <div class="products-content">
-                <h1>Product Collections</h1>
-
-                <div class="products-grid">
-
-                    <div class="product-item">
-                        <div class="image-box">
-                            <img src="images/laura-chouette-4sKdeIMiFEI-unsplash.jpg" alt="perfume">
-                        </div>
-                        <button class="view-btn">VIEW</button>
-                        <p class="price">USH 50.000</p>
-                    </div>
-
-                    <div class="product-item">
-                        <div class="image-box">
-                            <img src="images/diego-castaneda-t-dPNgQlHPo-unsplash.jpg" alt="perfume">
-                        </div>
-                        <button class="view-btn">VIEW</button>
-                        <p class="price">ush 50,000</p>
-                    </div>
-
-                    <div class="product-item">
-                        <div class="image-box">
-                            <img src="images/karly-jones-xBqYLnRhfaI-unsplash.jpg" alt="lotion">
-                        </div>
-                        <button class="view-btn">VIEW</button>
-                        <p class="price">USH 30,000</p>
-                    </div>
-
-                    <div class="product-item">
-                        <div class="image-box">
-                            <img src="images/kadarius-seegars-uGD6cbk7Cz4-unsplash.jpg" alt="lotion">
-                        </div>
-                        <button class="view-btn">VIEW</button>
-                        <p class="price">USH 45,000</p>
-                    </div>
-
-                    <div class="product-item">
-                        <div class="image-box">
-                            <img src="images/jackie-tsang-3_YP8_mh-Kg-unsplash.jpg" alt="jewelry">
-                        </div>
-                        <button class="view-btn">VIEW</button>
-                        <p class="price">USH 30,000</p>
-                    </div>
-
-                    <div class="product-item">
-                        <div class="image-box">
-                            <img src="images/tina-park-4_1qfH3ds4M-unsplash.jpg" alt="jewelry">
-                        </div>
-                        <button class="view-btn">VIEW</button>
-                        <p class="price">USH15,000</p>
-                    </div>
-
-                </div>
-            </div>
+        <div class="nav-links">
+            <a href="index.html"><i class="fa-solid fa-house"></i> Home</a> 
+            <a href="about.html"><i class="fa-solid fa-info"></i> ABOUT</a> 
+            <a class="active" href="products.html"><i class="fa-solid fa-cart-plus"></i> PRODUCTS</a>
+            <a href="contact.html"><i class="fa-solid fa-envelope"></i> CONTACT</a>
         </div>
     </div>
+</nav>
+<section class="products-header">
+    <h1>Our Beauty Collection</h1>
+    <p>Premium cosmetics tailored for your unique glow.</p>
+</section>
+
+<section class="shop-section">
+    <div class="category-filter">
+        <button class="filter-btn active">All Products</button>
+        <button class="filter-btn">Skincare</button>
+        <button class="filter-btn">Makeup</button>
+        <button class="filter-btn">Fragrance</button>
+    </div>
+
+    <div class="product-grid">
+        <div class="product-card">
+            <div class="product-image">
+                <img src="assets/images/serum.jpeg" alt="Organic Glow Serum">
+                <span class="badge">Bestseller</span>
+            </div>
+            <div class="product-info">
+                <h3>Organic Glow Serum</h3>
+                <p class="category">Skincare</p>
+                <p class="price">Ush 85,000</p>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="assets/images/maze-lipstick.jpeg" alt="Matte Lipstick">
+            </div>
+            <div class="product-info">
+                <h3>Velvet Matte Lipstick</h3>
+                <p class="category">Makeup</p>
+                <p class="price">Ush 45,000</p>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="assets/images/cream.jpeg" alt="Night Cream">
+            </div>
+            <div class="product-info">
+                <h3>Hydrating Night Cream</h3>
+                <p class="category">Skincare</p>
+                <p class="price">Ush 120,000</p>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="assets/images/body-oil.jpeg" alt="Body Oil">
+            </div>
+            <div class="product-info">
+                <h3>Essential Body Oil</h3>
+                <p class="category">Body Care</p>
+                <p class="price">Ush 65,000</p>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-image">
+                <img src="assets/images/pure-rose.jpeg" alt="Rose Water Toner">
+                <span class="badge">New Arrival</span>
+            </div>
+            <div class="product-info">
+                <h3>Pure Rose Water Toner</h3>
+                <p class="category">Skincare</p>
+                <p class="price">Ush 35,000</p>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="assets/images/sunscreen.jpeg" alt="Mineral Sunscreen">
+            </div>
+            <div class="product-info">
+                <h3>Mineral Defense Sunscreen</h3>
+                <p class="category">Skincare</p>
+                <p class="price">Ush 55,000</p>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="assets/images/mascara.jpeg" alt="Volume Mascara">
+            </div>
+            <div class="product-info">
+                <h3>Infinite Lash Mascara</h3>
+                <p class="category">Makeup</p>
+                <p class="price">Ush 40,000</p>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="assets/images/cocoa.jpeg" alt="Cocoa Butter Lotion">
+                <span class="badge">Best Value</span>
+            </div>
+            <div class="product-info">
+                <h3>Raw Cocoa Body Butter</h3>
+                <p class="category">Body Care</p>
+                <p class="price">Ush 25,000</p>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+        </div>
+        
+        </div>
+</section>
+<footer class="main-footer">
+    <div class="footer-container">
+        <div class="footer-col">
+            <h2 class="footer-logo">HELYNNE <span>BEAUTY</span></h2>
+            <p>Your number one destination for organic beauty and premium cosmetics in Uganda.</p>
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Shop Products</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h3>Contact Info</h3>
+            <p><i class="fa-solid fa-location-dot"></i> Kampala, Uganda</p>
+            <p><i class="fa-solid fa-phone"></i> +256 776160153</p>
+            <p><i class="fa-solid fa-envelope"></i> nambirohellen@gmail.com</p>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2026 Helynne Beauty & Cosmetics. All Rights Reserved.</p>
+    </div>
+</footer>
 </body>
 </html>

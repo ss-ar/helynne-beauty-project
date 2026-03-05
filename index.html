@@ -5,17 +5,174 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
-    <title>Helynne Beauty & Cosmetics | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Helynne Beauty | Home</title>
 </head>
 <body>
-    <div class="navbar">
-    <a class="active" href="index.html"><i class="fa-solid fa-house"></i> Home</a> 
-    <a href="about.html"><i class="fa-solid fa-info"></i> ABOUT</a> 
-    <a href="products.html"><i class="fa-solid fa-cart-plus"></i>PRODUCTS</a>
-    <a href="contact.html"><i class="fa-solid fa-envelope"></i>CONTACT</a>
-    </div>
-    <h2>Responsive Navigation Bar with Icons</h2>
-    <p>Try to resize the browser window to see the responsive effect.</p>
+    <nav class="navbar">
+    <div class="nav-container">
+        <div class="logo">
+            <a href="index.html">HELYNNE <span>BEAUTY</span></a>
+        </div>
 
+        <div class="nav-links">
+            <a class="active" href="index.html"><i class="fa-solid fa-house"></i> Home</a> 
+            <a href="about.html"><i class="fa-solid fa-info"></i> ABOUT</a> 
+            <a href="products.html"><i class="fa-solid fa-cart-plus"></i> PRODUCTS</a>
+            <a href="contact.html"><i class="fa-solid fa-envelope"></i> CONTACT</a>
+        </div>
+    </div>
+</nav>
+<section class="hero-section">
+    <div class="slider-wrapper">
+        <div class="slide">
+            <img src="assets/images/hero1.jpg" alt="Skincare">
+            <div class="hero-content">
+                <h1>Reveal Your Natural Glow</h1>
+                <p>Premium organic cosmetics for every skin type.</p>
+                <a href="products.html" class="cta-btn">Shop Collection</a>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="assets/images/hero2.jpg" alt="Makeup">
+            <div class="hero-content">
+                <h1>Bold Colors, Bold You</h1>
+                <p>Discover our new long-lasting matte range.</p>
+                <a href="products.html" class="cta-btn">Explore Now</a>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="assets/images/hero3.jpg" alt="Perfume">
+            <div class="hero-content">
+                <h1>Signature Scents</h1>
+                <p>Find the fragrance that defines your essence.</p>
+                <a href="products.html" class="cta-btn">View Scents</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="featured-products">
+    <div class="section-title">
+        <h2>Featured Collection</h2>
+        <p>Handpicked essentials for your daily ritual</p>
+    </div>
+
+    <div class="product-grid">
+        <div class="product-card">
+            <div class="product-image">
+                <img src="assets/images/serum.jpeg" alt="Product Name">
+                <span class="badge">New</span>
+            </div>
+            <div class="product-info">
+                <h3>Hydrating Face Serum</h3>
+                <p class="category">Skincare</p>
+                <p class="price">Ush 86.000</p>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="assets/images/maze-lipstick.jpeg" alt="Product Name">
+            </div>
+            <div class="product-info">
+                <h3>Matte Lipstick - Rose</h3>
+                <p class="category">Makeup</p>
+                <p class="price">Ush 48.000</p>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="assets/images/cream.jpeg" alt="Product Name">
+            </div>
+            <div class="product-info">
+                <h3>Organic Night Cream</h3>
+                <p class="category">Skincare</p>
+                <p class="price">Ush 136.000</p>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+                <img src="assets/images/glow.jpeg" alt="Product Name">
+            </div>
+            <div class="product-info">
+                <h3>Glow Foundation</h3>
+                <p class="category">Makeup</p>
+                <p class="price">Ush 96.000</p>
+                <button class="add-btn">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="benefits">
+    <div class="benefit-item">
+        <i class="fa-solid fa-leaf"></i>
+        <h3>100% Organic</h3>
+        <p>Pure natural ingredients sourced locally for your skin's health.</p>
+    </div>
+    <div class="benefit-item">
+        <i class="fa-solid fa-truck-fast"></i>
+        <h3>Fast Delivery</h3>
+        <p>Quick and reliable delivery across the country to your doorstep.</p>
+    </div>
+    <div class="benefit-item">
+        <i class="fa-solid fa-hand-holding-heart"></i>
+        <h3>Cruelty Free</h3>
+        <p>We believe in beauty without harm. No animal testing, ever.</p>
+    </div>
+</section>
+
+<section class="promo-banner">
+    <div class="promo-text">
+        <span>Limited Offer</span>
+        <h2>Get 20% Off Your First Order</h2>
+        <p>Use code: <strong>HELYNNE20</strong></p>
+        <a href="products.html" class="cta-btn">Shop Now</a>
+    </div>
+    <div class="promo-image">
+        <img src="assets/images/promo-bg.png" alt="Promo Banner">
+    </div>
+</section>
+<footer class="main-footer">
+    <div class="footer-container">
+        <div class="footer-col">
+            <h2 class="footer-logo">HELYNNE <span>BEAUTY</span></h2>
+            <p>Your number one destination for organic beauty and premium cosmetics in Uganda.</p>
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Shop Products</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h3>Contact Info</h3>
+            <p><i class="fa-solid fa-location-dot"></i> Kampala, Uganda</p>
+            <p><i class="fa-solid fa-phone"></i> +256 776160153</p>
+            <p><i class="fa-solid fa-envelope"></i> nambirohellen@gmail.com</p>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2026 Helynne Beauty & Cosmetics. All Rights Reserved.</p>
+    </div>
+</footer>
 </body>
 </html>

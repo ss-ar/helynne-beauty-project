@@ -3,63 +3,142 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Beauty by Helynne</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Helynne Beauty | About Us</title>
 </head>
 <body>
-    <header class="hero">
-        <div class="navbar"> 
-            <h2 class="logo">Beauty by Helynne</h2>
-            <div class="menu">
-                 <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="services.html">SERVICE</a></li>
-                    <li><a href="products.html">PRODUCTS</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
-                 </ul>
-            </div>
-            <div class="search">
-                <input class="srch" type="search" placeholder="Search...">
-                <button class="btn-search">search</button> 
-            </div>
+    <nav class="navbar">
+    <div class="nav-container">
+        <div class="logo">
+            <a href="index.html">HELYNNE <span>BEAUTY</span></a>
         </div>
-        <div class="hero-title">
-            <h1>Our Story</h1>
-        </div>
-    </header>
 
-    <section class="about-section">
-        <div class="about-container">
-            <div class="about-content">
-                <h2>Redefining Beauty</h2>
-                <p>Beauty made simple. Our journey began with a mission to bring together affordable, high-quality cosmetics and skincare products for every age and experience level. We believe that beauty should be accessible, enjoyable, and seamless for everyone.</p>
-                <p>At Beauty by Helynne, we don't just sell products; we provide expert guidance and curated collections designed to make your shopping experience as helpful as it is beautiful.</p>
-                <div class="about-stats">
-                    <div class="stat">
-                        <span>100%</span>
-                        <p>Organic</p>
-                    </div>
-                    <div class="stat">
-                        <span>5k+</span>
-                        <p>Happy Clients</p>
-                    </div>
+        <div class="nav-links">
+            <a href="index.html"><i class="fa-solid fa-house"></i> Home</a> 
+            <a class="active" href="about.html"><i class="fa-solid fa-info"></i> ABOUT</a> 
+            <a href="products.html"><i class="fa-solid fa-cart-plus"></i> PRODUCTS</a>
+            <a href="contact.html"><i class="fa-solid fa-envelope"></i> CONTACT</a>
+        </div>
+    </div>
+</nav>
+<section class="about-hero">
+    <h1>About Our Journey</h1>
+    <p>Empowering beauty through nature since 2024</p>
+</section>
+<section class="about-story">
+    <div class="story-container">
+        <div class="story-image">
+            <img src="assets/images/founder.JPG" alt="Our Founder">
+        </div>
+        <div class="story-text">
+            <h2>The Helynne Story</h2>
+            <p>Helynne Beauty & Cosmetics started with a simple vision: to provide Ugandan women with high-quality, organic products that celebrate their natural skin. We noticed a gap in the market for premium products that are both effective and safe for long-term use.</p>
+            <p>Today, we are proud to serve thousands of customers across Kampala and beyond, staying true to our roots of authenticity and luxury.</p>
+            
+            <div class="stats">
+                <div class="stat-box">
+                    <span>10k+</span>
+                    <p>Happy Clients</p>
+                </div>
+                <div class="stat-box">
+                    <span>100%</span>
+                    <p>Organic</p>
                 </div>
             </div>
-            <div class="about-image">
-                <img src="images/vh.jpg" alt="Beauty Studio">
-            </div>
         </div>
-    </section>
-
-    <div class="icon" style="padding: 40px 0;">
-        <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-        <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
-        <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
-        <a href="#"><ion-icon name="logo-google"></ion-icon></a>
-        <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+    </div>
+</section>
+<section class="our-values">
+    <div class="section-title">
+        <h2>Our Core Values</h2>
+        <p>The principles that guide every product we create</p>
+    </div>
+    
+    <div class="values-grid">
+        <div class="value-card">
+            <i class="fa-solid fa-gem"></i>
+            <h3>Uncompromising Quality</h3>
+            <p>We source only the finest ingredients to ensure every product meets premium standards.</p>
+        </div>
+        
+        <div class="value-card">
+            <i class="fa-solid fa-heart"></i>
+            <h3>Community First</h3>
+            <p>Proudly Ugandan. We aim to empower our local community through beauty and confidence.</p>
+        </div>
+        
+        <div class="value-card">
+            <i class="fa-solid fa-shield-halved"></i>
+            <h3>Transparency</h3>
+            <p>No hidden chemicals. We believe you deserve to know exactly what goes onto your skin.</p>
+        </div>
+    </div>
+</section>
+<section class="our-team">
+    <div class="section-title">
+        <h2>Meet the Visionaries</h2>
     </div>
 
-    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <div class="team-grid">
+        <div class="team-member">
+            <div class="member-img">
+                <img src="assets/images/founder.JPG" alt="Founder">
+            </div>
+            <div class="member-info">
+                <h3>Hellen Nambiro</h3>
+                <p>Founder & CEO</p>
+            </div>
+        </div>
+
+        <div class="team-member">
+            <div class="member-img">
+                <img src="assets/images/specialist.JPG" alt="Skin Specialist">
+            </div>
+            <div class="member-info">
+                <h3>Lead Aesthetician</h3>
+                <p>Product Development</p>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="main-footer">
+    <div class="footer-container">
+        <div class="footer-col">
+            <h2 class="footer-logo">HELYNNE <span>BEAUTY</span></h2>
+            <p>Your number one destination for organic beauty and premium cosmetics in Uganda.</p>
+            <div class="social-links">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Shop Products</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h3>Contact Info</h3>
+            <p><i class="fa-solid fa-location-dot"></i> Kampala, Uganda</p>
+            <p><i class="fa-solid fa-phone"></i> +256 776160153</p>
+            <p><i class="fa-solid fa-envelope"></i> nambirohellen@gmail.com</p>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2026 Helynne Beauty & Cosmetics. All Rights Reserved.</p>
+    </div>
+</footer>
 </body>
 </html>
